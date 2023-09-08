@@ -5,7 +5,7 @@
 
 // you can use the animate.css library to help you make this animation
 
-const texts = ['Software Developer', 'Gamer', 'Tutor'];
+const texts = ['Software Developer'];
 const start = "I am a ";
 let count = 0;
 
@@ -21,7 +21,7 @@ function typingEffect() {
       clearInterval(interval);
       setTimeout(() => {
         count++;
-        if (count >= texts.length) count = 0;
+        if (count >= texts.length) return;
         typingEffect();
       }, 500);
     }
