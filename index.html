@@ -1,207 +1,231 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Tony Martinez's Wesite</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css">-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		
 
-		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-	</head>
-	<body class="is-preload">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tony Martinez Personal Website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 1-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css" />
+    
+    <style>
+        .author-image {
+            border: 5px solid #7C7E7F; /* Rice University grey */
+            border-radius: 5px;
+        }
+        .half-image {
+            max-width: 50%;
+            height: auto;
+        }
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#" target="_blank">Top</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+    </style>
+    <script type="text/javascript" src="js/tony.js"></script>
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1><strong>Tony Martinez</strong>.</h1>
-								<!--<li><a href="/assets/tonys_resume.pdf" class="button small">Resume</a></li>-->
-					
-								<h3 id="iAm">Software Developer</h3>
-							</header>
-							<p>I'm a software developer specializing in <strong>Databases</strong> and <strong>Backend applications</strong>, and this is my portfolio to show off all my projects!</p>
-						</div>
-					</div>
-				</div>
-			</article>
+</head>
 
-		<!-- Work -->
-		<!--	<article id="work" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>A general overview</p>
-					</header>
-				</div>
-			</article>
-		-->
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Projects</h2>
-						<p></p>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/authmeimg.png" alt="" /></a>
-								<h3><a href="#">AuthMe</a></h3>
-								<p>A discord bot made to stop bot spam and control raids.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/SpellCell.png" alt="" /></a>
-								<h3><a href="#">SpellCell</a></h3>
-								<p>A multiplayer roguelite made in Godot.</p>
-							</article>
-						</div>
-						<!--<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>-->
-					</div>
-					<!--<div class="row">
-						<div class="col-12 about">
-							<ul class="section-title">
-								<li>Javascript</li>
-								<li>Python</li>
-							</ul>
-						</div>-->
-					<footer>
-						<p>Other Examples can be found on my Github page!</p>
-					</footer>
-				</div>
-			</article>
+<body>
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    Tony
+                    <!--<img src="../images/bulma.png" alt="Logo">-->
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                <span></span>
+                <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="#projects"class="navbar-item">
+                            Projects
+                    </a>
+                    <a href="#work" class="navbar-item">
+                            Work
+                    </a>
+                    <a class="navbar-item">
+                            Projects
+                        </a>
+                    <a href="https://github.com/TonyTheBaloney" class="navbar-item">
+                            Github
+                    </a>
+                    
+                    <canvas id="snake" height="50px" width="50px">
+                        <!-- Fallback for when canvas is not supported -->
+                    </canvas>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    
+    <section class="hero is-info is-medium is-bold">\
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    Tony Martinez
+                </h1>
+            </div>
+        </div>
+    </section>
 
-		<!-- Contact -->
-		
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Have me make stuff for you!</h2>
-						<p>Contact me on my..</p>
-						<p> <strong>Email:</strong> tonymartinez1337@gmail.com</p>
-						
-						<p> <strong>City:</strong> Fort Worth, Texas</p>
-					</header>
-					<div class="row">
-						<!--
-						<div class="col-12">
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
-						-->
-						<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social">
-								<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>-->
-								<li><a href="https://github.com/TonyTheBaloney"                         class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.youtube.com/channel/UCSeYsHI1VHeaJ4ncqjc_9IA" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
-							</ul>
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; 2022. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/index.js"></script>
+    <div class="container">
+        <!-- START ARTICLE FEED -->
+        <section class="articles">
+            <div class="column is-8 is-offset-2">
+                <!-- START ARTICLE -->
+                <div class="card article">
+                    <div class="card-content">
+                        <div class="content article-body has-text-centered">
+                            <p>
+                                Hi I'm Tony, a sophomore at Rice University studying Computer Science and Electrical Engineering. 
+                            </p>
+                            <P>
+                                I'm currently learning about programming language implementation, and low level system calls!
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- END ARTICLE -->
+                <!-- START ARTICLE -->
+                <div id="projects" class="card article">
+                    <div class="card-content">
+                        <div class="content article-body">
+                            <h3 class="has-text-centered">
+                                Here are a few of the projects I've worked on!
+                            </h3>
+                            <p id = "project1" class="has-text-centered">
+                                <img src="images/ExampleTrial.png" class="author-image half-image" alt="Distraction Research">
+                                <h6 class="has-text-centered">
+                                    Virtual Reality Distraction Resaerch
+                                </h6>
+                                <p>
+                                    I developed a platform to study the effects of distractions during high attention 
+                                    tasks. The platform recorded visuomotor data using a virtual reality headset, 
+                                    lowering the cost for research. Made with Unity and Vive Focus 3.
+                                </p>
+                            </p>
+                            <p id = "project2" class="has-text-centered">
+                                <img src="images/ExampleTrial.png" class="author-image half-image" alt="Spell Ball">
+                                <h6 class="has-text-centered">
+                                    Ball Game
+                                </h6>
+                                <p>
+                                    Created a two-player steam game to play with friends! Made with Godot and Steam API.
+                                </p>
+                            </p>
+                            <p id="project3" class="has-text-centered">
 
-	</body>
+                                <img src="images/authmeimg.png" class="author-image half-image" alt="AuthMe" >
+                                <h6 class="has-text-centered">
+                                    AuthMe
+                                </h6>
+                                <p>
+                                    Created a discord bot to prevent unauthorized bots from joining a server, by
+                                    verifying users with a captcha. Made with DiscordJS, NodeJS, and MongoDB.
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ARTICLE -->
+                <!-- START ARTICLE -->
+                <div id="work" class="card article">
+                    <div class="card-content">
+                        <div  class="content article-body">
+                            <h2 class="has-text-centered">
+                                Jobs
+                            </h2>
+                            <div id="job1" class="has-text-centered">
+                                <h6>
+                                    Undergraduate Researcher - Rice University (Jan 2025 - Present) 
+                                </h6>
+                                <p>
+                                    Currently working to design a website that can help teach Big-O notation to students.
+                                </p>
+                            </div> 
+                            <div id="job2" class="has-text-centered">
+                                <h6>
+                                    Undergraduate Researcher - Rice University (May 2025 - Present) 
+                                </h6>
+                                <p>
+                                    Designing a Unity Interface to automate bio-signal recording, to help researchers study
+                                    a new rehab design.
+                                </p>
+                            </div>
+                            <div id="job3" class="has-text-centered">
+                                <h6>
+                                    OIT Tech Assistant - Rice University (May 2025 - Present) 
+                                </h6>
+                                <p>
+                                    Assited professors to set up technology in a classroom setting, and 
+                                    facilitated hybrid learning
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- END ARTICLE -->
+                <!-- START ARTICLE -->
+                 <div id="stats" class="card article">
+                    <div class="card-content">
+                        <div class="content article-body">
+                            <h3 class="has-text-centered">GitHub Statistics <img src="images/github-mark.png" alt="GitHub Logo" style="width: 20px; height: auto;"></h3>
+                            
+                            
+                            <div id="github-stats" class="has-text-centered">
+                                <p>Loading...</p>
+                            </div>
+
+                            <script>
+                                    try {
+                                        let data = getGithubData();
+                                        data.then(data => {
+                                            console.log(data);
+                                            document.getElementById('github-stats').innerHTML = `
+                                            <p>Public Repos: ${data.public_repos}</p>
+                                            <p>Followers: ${data.followers}</p>
+                                            <p>Following: ${data.following}</p>
+                                        `;
+                                        });
+                                        
+                                    } catch (error) {
+                                        console.error(error);
+                                        document.getElementById('github-stats').innerHTML = '<p>Error loading data</p>';
+                                    }
+                            </script>
+                        </div>
+                    </div>
+                 </div>
+              </div>
+
+        </section>
+        <!-- END ARTICLE FEED -->
+        </div>
+        <!-- START FOOTER -->
+        <footer class="footer">
+            <script>
+                checkSupported();
+            </script>
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Tony Martinez Personal Website</strong> by <a href="https://tonymartinez.me">Tony Martinez</a>. 
+                    <br>
+                    The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                </p>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+</body>
+
 </html>
